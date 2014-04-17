@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2C3B9A18FF0D8E00302D55 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C3B9718FF0D8E00302D55 /* ACEDrawingTools.m */; };
+		8D2C3B9B18FF0D8E00302D55 /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C3B9918FF0D8E00302D55 /* ACEDrawingView.m */; };
+		8DD6BF0E18F2194300961E0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD6BF0D18F2194300961E0F /* UIKit.framework */; };
+		8DD6BF1018F2194300961E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD6BF0F18F2194300961E0F /* Foundation.framework */; };
+		8DD6BF1218F2194300961E0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD6BF1118F2194300961E0F /* CoreGraphics.framework */; };
+		8DD6BF1818F2194300961E0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF1618F2194300961E0F /* InfoPlist.strings */; };
+		8DD6BF1A18F2194300961E0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6BF1918F2194300961E0F /* main.m */; };
+		8DD6BF1E18F2194300961E0F /* PDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6BF1D18F2194300961E0F /* PDAppDelegate.m */; };
+		8DD6BF2118F2194300961E0F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF1F18F2194300961E0F /* MainStoryboard_iPhone.storyboard */; };
+		8DD6BF2418F2194300961E0F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2218F2194300961E0F /* MainStoryboard_iPad.storyboard */; };
+		8DD6BF2718F2194300961E0F /* PDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2618F2194300961E0F /* PDFirstViewController.m */; };
+		8DD6BF2918F2194300961E0F /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2818F2194300961E0F /* first.png */; };
+		8DD6BF2B18F2194300961E0F /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2A18F2194300961E0F /* first@2x.png */; };
+		8DD6BF2E18F2194300961E0F /* PDWritingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2D18F2194300961E0F /* PDWritingViewController.m */; };
+		8DD6BF3018F2194300961E0F /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2F18F2194300961E0F /* second.png */; };
+		8DD6BF3218F2194300961E0F /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF3118F2194300961E0F /* second@2x.png */; };
+		8DD6BF3A18F2194300961E0F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD6BF3918F2194300961E0F /* SenTestingKit.framework */; };
+		8DD6BF3B18F2194300961E0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD6BF0D18F2194300961E0F /* UIKit.framework */; };
+		8DD6BF3C18F2194300961E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD6BF0F18F2194300961E0F /* Foundation.framework */; };
+		8DD6BF4418F2194400961E0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF4218F2194400961E0F /* InfoPlist.strings */; };
+		8DD6BF4718F2194400961E0F /* PictureDashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6BF4618F2194400961E0F /* PictureDashTests.m */; };
+		8DD6BF5218F228C300961E0F /* PDHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6BF5118F228C300961E0F /* PDHistoryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DD6BF3D18F2194300961E0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD6BF0018F2194300961E0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD6BF0818F2194300961E0F;
+			remoteInfo = PictureDash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D2C3B9618FF0D8E00302D55 /* ACEDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingTools.h; sourceTree = "<group>"; };
+		8D2C3B9718FF0D8E00302D55 /* ACEDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingTools.m; sourceTree = "<group>"; };
+		8D2C3B9818FF0D8E00302D55 /* ACEDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingView.h; sourceTree = "<group>"; };
+		8D2C3B9918FF0D8E00302D55 /* ACEDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingView.m; sourceTree = "<group>"; };
+		8DD6BF0918F2194300961E0F /* PictureDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD6BF0D18F2194300961E0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8DD6BF0F18F2194300961E0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8DD6BF1118F2194300961E0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8DD6BF1518F2194300961E0F /* PictureDash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PictureDash-Info.plist"; sourceTree = "<group>"; };
+		8DD6BF1718F2194300961E0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DD6BF1918F2194300961E0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DD6BF1B18F2194300961E0F /* PictureDash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PictureDash-Prefix.pch"; sourceTree = "<group>"; };
+		8DD6BF1C18F2194300961E0F /* PDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDAppDelegate.h; sourceTree = "<group>"; };
+		8DD6BF1D18F2194300961E0F /* PDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDAppDelegate.m; sourceTree = "<group>"; };
+		8DD6BF2018F2194300961E0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8DD6BF2318F2194300961E0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8DD6BF2518F2194300961E0F /* PDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFirstViewController.h; sourceTree = "<group>"; };
+		8DD6BF2618F2194300961E0F /* PDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFirstViewController.m; sourceTree = "<group>"; };
+		8DD6BF2818F2194300961E0F /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8DD6BF2A18F2194300961E0F /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8DD6BF2C18F2194300961E0F /* PDWritingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDWritingViewController.h; sourceTree = "<group>"; };
+		8DD6BF2D18F2194300961E0F /* PDWritingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDWritingViewController.m; sourceTree = "<group>"; };
+		8DD6BF2F18F2194300961E0F /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8DD6BF3118F2194300961E0F /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8DD6BF3818F2194300961E0F /* PictureDashTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureDashTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD6BF3918F2194300961E0F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DD6BF4118F2194300961E0F /* PictureDashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PictureDashTests-Info.plist"; sourceTree = "<group>"; };
+		8DD6BF4318F2194400961E0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8DD6BF4518F2194400961E0F /* PictureDashTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureDashTests.h; sourceTree = "<group>"; };
+		8DD6BF4618F2194400961E0F /* PictureDashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureDashTests.m; sourceTree = "<group>"; };
+		8DD6BF5018F228C300961E0F /* PDHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDHistoryViewController.h; sourceTree = "<group>"; };
+		8DD6BF5118F228C300961E0F /* PDHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDHistoryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD6BF0618F2194300961E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD6BF0E18F2194300961E0F /* UIKit.framework in Frameworks */,
+				8DD6BF1018F2194300961E0F /* Foundation.framework in Frameworks */,
+				8DD6BF1218F2194300961E0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD6BF3418F2194300961E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD6BF3A18F2194300961E0F /* SenTestingKit.framework in Frameworks */,
+				8DD6BF3B18F2194300961E0F /* UIKit.framework in Frameworks */,
+				8DD6BF3C18F2194300961E0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DD6BEFE18F2194300961E0F = {
+			isa = PBXGroup;
+			children = (
+				8DD6BF1318F2194300961E0F /* PictureDash */,
+				8DD6BF3F18F2194300961E0F /* PictureDashTests */,
+				8DD6BF0C18F2194300961E0F /* Frameworks */,
+				8DD6BF0A18F2194300961E0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DD6BF0A18F2194300961E0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD6BF0918F2194300961E0F /* PictureDash.app */,
+				8DD6BF3818F2194300961E0F /* PictureDashTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DD6BF0C18F2194300961E0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DD6BF0D18F2194300961E0F /* UIKit.framework */,
+				8DD6BF0F18F2194300961E0F /* Foundation.framework */,
+				8DD6BF1118F2194300961E0F /* CoreGraphics.framework */,
+				8DD6BF3918F2194300961E0F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DD6BF1318F2194300961E0F /* PictureDash */ = {
+			isa = PBXGroup;
+			children = (
+				8D2C3B9618FF0D8E00302D55 /* ACEDrawingTools.h */,
+				8D2C3B9718FF0D8E00302D55 /* ACEDrawingTools.m */,
+				8D2C3B9818FF0D8E00302D55 /* ACEDrawingView.h */,
+				8D2C3B9918FF0D8E00302D55 /* ACEDrawingView.m */,
+				8DD6BF5018F228C300961E0F /* PDHistoryViewController.h */,
+				8DD6BF5118F228C300961E0F /* PDHistoryViewController.m */,
+				8DD6BF1C18F2194300961E0F /* PDAppDelegate.h */,
+				8DD6BF1D18F2194300961E0F /* PDAppDelegate.m */,
+				8DD6BF1F18F2194300961E0F /* MainStoryboard_iPhone.storyboard */,
+				8DD6BF2218F2194300961E0F /* MainStoryboard_iPad.storyboard */,
+				8DD6BF2518F2194300961E0F /* PDFirstViewController.h */,
+				8DD6BF2618F2194300961E0F /* PDFirstViewController.m */,
+				8DD6BF2818F2194300961E0F /* first.png */,
+				8DD6BF2A18F2194300961E0F /* first@2x.png */,
+				8DD6BF2C18F2194300961E0F /* PDWritingViewController.h */,
+				8DD6BF2D18F2194300961E0F /* PDWritingViewController.m */,
+				8DD6BF2F18F2194300961E0F /* second.png */,
+				8DD6BF3118F2194300961E0F /* second@2x.png */,
+				8DD6BF1418F2194300961E0F /* Supporting Files */,
+			);
+			path = PictureDash;
+			sourceTree = "<group>";
+		};
+		8DD6BF1418F2194300961E0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DD6BF1518F2194300961E0F /* PictureDash-Info.plist */,
+				8DD6BF1618F2194300961E0F /* InfoPlist.strings */,
+				8DD6BF1918F2194300961E0F /* main.m */,
+				8DD6BF1B18F2194300961E0F /* PictureDash-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DD6BF3F18F2194300961E0F /* PictureDashTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DD6BF4518F2194400961E0F /* PictureDashTests.h */,
+				8DD6BF4618F2194400961E0F /* PictureDashTests.m */,
+				8DD6BF4018F2194300961E0F /* Supporting Files */,
+			);
+			path = PictureDashTests;
+			sourceTree = "<group>";
+		};
+		8DD6BF4018F2194300961E0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DD6BF4118F2194300961E0F /* PictureDashTests-Info.plist */,
+				8DD6BF4218F2194400961E0F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD6BF0818F2194300961E0F /* PictureDash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD6BF4A18F2194400961E0F /* Build configuration list for PBXNativeTarget "PictureDash" */;
+			buildPhases = (
+				8DD6BF0518F2194300961E0F /* Sources */,
+				8DD6BF0618F2194300961E0F /* Frameworks */,
+				8DD6BF0718F2194300961E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PictureDash;
+			productName = PictureDash;
+			productReference = 8DD6BF0918F2194300961E0F /* PictureDash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DD6BF3718F2194300961E0F /* PictureDashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD6BF4D18F2194400961E0F /* Build configuration list for PBXNativeTarget "PictureDashTests" */;
+			buildPhases = (
+				8DD6BF3318F2194300961E0F /* Sources */,
+				8DD6BF3418F2194300961E0F /* Frameworks */,
+				8DD6BF3518F2194300961E0F /* Resources */,
+				8DD6BF3618F2194300961E0F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DD6BF3E18F2194300961E0F /* PBXTargetDependency */,
+			);
+			name = PictureDashTests;
+			productName = PictureDashTests;
+			productReference = 8DD6BF3818F2194300961E0F /* PictureDashTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DD6BF0018F2194300961E0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Vincent Pillinger";
+			};
+			buildConfigurationList = 8DD6BF0318F2194300961E0F /* Build configuration list for PBXProject "PictureDash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8DD6BEFE18F2194300961E0F;
+			productRefGroup = 8DD6BF0A18F2194300961E0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD6BF0818F2194300961E0F /* PictureDash */,
+				8DD6BF3718F2194300961E0F /* PictureDashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DD6BF0718F2194300961E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD6BF1818F2194300961E0F /* InfoPlist.strings in Resources */,
+				8DD6BF2118F2194300961E0F /* MainStoryboard_iPhone.storyboard in Resources */,
+				8DD6BF2418F2194300961E0F /* MainStoryboard_iPad.storyboard in Resources */,
+				8DD6BF2918F2194300961E0F /* first.png in Resources */,
+				8DD6BF2B18F2194300961E0F /* first@2x.png in Resources */,
+				8DD6BF3018F2194300961E0F /* second.png in Resources */,
+				8DD6BF3218F2194300961E0F /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD6BF3518F2194300961E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD6BF4418F2194400961E0F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DD6BF3618F2194300961E0F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD6BF0518F2194300961E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD6BF1A18F2194300961E0F /* main.m in Sources */,
+				8DD6BF1E18F2194300961E0F /* PDAppDelegate.m in Sources */,
+				8DD6BF2718F2194300961E0F /* PDFirstViewController.m in Sources */,
+				8DD6BF2E18F2194300961E0F /* PDWritingViewController.m in Sources */,
+				8DD6BF5218F228C300961E0F /* PDHistoryViewController.m in Sources */,
+				8D2C3B9A18FF0D8E00302D55 /* ACEDrawingTools.m in Sources */,
+				8D2C3B9B18FF0D8E00302D55 /* ACEDrawingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD6BF3318F2194300961E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD6BF4718F2194400961E0F /* PictureDashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DD6BF3E18F2194300961E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DD6BF0818F2194300961E0F /* PictureDash */;
+			targetProxy = 8DD6BF3D18F2194300961E0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DD6BF1618F2194300961E0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DD6BF1718F2194300961E0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8DD6BF1F18F2194300961E0F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DD6BF2018F2194300961E0F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8DD6BF2218F2194300961E0F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DD6BF2318F2194300961E0F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8DD6BF4218F2194400961E0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DD6BF4318F2194400961E0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DD6BF4818F2194400961E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DD6BF4918F2194400961E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DD6BF4B18F2194400961E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PictureDash/PictureDash-Prefix.pch";
+				INFOPLIST_FILE = "PictureDash/PictureDash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8DD6BF4C18F2194400961E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PictureDash/PictureDash-Prefix.pch";
+				INFOPLIST_FILE = "PictureDash/PictureDash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8DD6BF4E18F2194400961E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PictureDash.app/PictureDash";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PictureDash/PictureDash-Prefix.pch";
+				INFOPLIST_FILE = "PictureDashTests/PictureDashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8DD6BF4F18F2194400961E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PictureDash.app/PictureDash";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PictureDash/PictureDash-Prefix.pch";
+				INFOPLIST_FILE = "PictureDashTests/PictureDashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DD6BF0318F2194300961E0F /* Build configuration list for PBXProject "PictureDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD6BF4818F2194400961E0F /* Debug */,
+				8DD6BF4918F2194400961E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD6BF4A18F2194400961E0F /* Build configuration list for PBXNativeTarget "PictureDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD6BF4B18F2194400961E0F /* Debug */,
+				8DD6BF4C18F2194400961E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD6BF4D18F2194400961E0F /* Build configuration list for PBXNativeTarget "PictureDashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD6BF4E18F2194400961E0F /* Debug */,
+				8DD6BF4F18F2194400961E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DD6BF0018F2194300961E0F /* Project object */;
+}
