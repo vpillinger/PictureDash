@@ -17,6 +17,9 @@
 @synthesize prompt;
 @synthesize ImagePlayerName;
 @synthesize image;
+@synthesize gameRound;
+@synthesize fetchedResultsController;
+@synthesize managedObjectContext;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

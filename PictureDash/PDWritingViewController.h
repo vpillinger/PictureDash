@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface PDWritingViewController : UIViewController
+#import "PDGameViewController.h"
+@interface PDWritingViewController : UIViewController <PDGameViewController>
 - (IBAction)backButton:(id)sender;
 - (IBAction)submitButton:(id)sender;
 @property (weak, nonatomic) IBOutlet UIImageView *imageDisplay;

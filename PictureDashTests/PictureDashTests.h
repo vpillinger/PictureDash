@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Vincent Pillinger. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface PictureDashTests : SenTestCase
+@interface PictureDashTests : XCTestCase
 
 @end

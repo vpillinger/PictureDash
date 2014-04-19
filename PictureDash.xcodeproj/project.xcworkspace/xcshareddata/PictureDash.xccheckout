@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E154571E-4F47-4684-B4EC-D7E9CA27B61F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PictureDash</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E749CDF6-30B4-472A-940C-CFEE86D216E5</key>
+		<string>https://github.com/vpillinger/PictureDash.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PictureDash.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E749CDF6-30B4-472A-940C-CFEE86D216E5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vpillinger/PictureDash.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E749CDF6-30B4-472A-940C-CFEE86D216E5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E749CDF6-30B4-472A-940C-CFEE86D216E5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PictureDash</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,87 +1,153 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="FtI-zr-NXF">
     <dependencies>
-        <deployment defaultVersion="1296" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Draw View Controller - First-->
         <scene sceneID="11">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
                 <viewController title="First" id="2" customClass="PDDrawViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
-                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Draw View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="20">
-                                <rect key="frame" x="49" y="0.0" width="212" height="43"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Prompt: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="CBK-Nz-h0w">
-                                <rect key="frame" x="122" y="51" width="66" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gk5-vi-Q0K">
-                                <rect key="frame" x="225" y="354" width="75" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Submit">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="SubmitButton:" destination="2" eventType="touchUpInside" id="1Rc-jc-H1E"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KwB-iy-k5z">
-                                <rect key="frame" x="27" y="354" width="72" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="BackButton:" destination="2" eventType="touchUpInside" id="9TC-ce-N31"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" id="bkc-dt-7kK" customClass="ACEDrawingView">
-                                <rect key="frame" x="20" y="80" width="280" height="266"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="uTo-vu-1LV">
+                                <rect key="frame" x="0.0" y="96" width="320" height="340"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="DrawView" image="first" id="7"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Game Name" prompt="&lt;GamePrompt Goes here>" id="1kY-5u-5Rz">
+                        <barButtonItem key="leftBarButtonItem" title="Submit" id="hhw-du-xm1">
+                            <connections>
+                                <action selector="submit:" destination="2" id="Fif-h9-g1o"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Draw" id="L9E-mo-pZv">
+                            <connections>
+                                <segue destination="btj-bT-jqi" kind="push" id="lNE-6F-iQm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1179" y="-133"/>
+        </scene>
+        <!--View Controller - <GamePrompt Goes Here>-->
+        <scene sceneID="zHT-8m-sfO">
+            <objects>
+                <viewController id="btj-bT-jqi" customClass="ACEViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Yc-eC-Y4u">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="9NU-fD-Sqm" customClass="ACEDrawingView">
+                                <rect key="frame" x="0.0" y="98" width="320" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="S2n-6Y-0Eg">
+                                <rect key="frame" x="0.0" y="398" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Black" id="3Vy-lo-VQm">
+                                        <connections>
+                                            <action selector="colorChange:" destination="btj-bT-jqi" id="Ynp-ub-EZ9"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Pen" id="D8G-kL-VGb">
+                                        <connections>
+                                            <action selector="toolChange:" destination="btj-bT-jqi" id="rKU-Ti-KzD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="VZT-jc-wIA"/>
+                                    <barButtonItem title="Width" id="x2X-Ha-9Ka">
+                                        <connections>
+                                            <action selector="toggleWidthSlider:" destination="btj-bT-jqi" id="aLD-Y0-wdY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Alpha" id="axw-qC-jUe">
+                                        <connections>
+                                            <action selector="toggleAlphaSlider:" destination="btj-bT-jqi" id="u2t-2Q-d2h"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="4tT-b7-Led">
+                                <rect key="frame" x="0.0" y="65" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <barButtonItem enabled="NO" title="Undo" id="W4d-pf-lHM">
+                                        <connections>
+                                            <action selector="undo:" destination="btj-bT-jqi" id="Wtz-Jb-Iw9"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem enabled="NO" title="Redo" id="SbD-RQ-yN9">
+                                        <connections>
+                                            <action selector="redo:" destination="btj-bT-jqi" id="Ade-vF-CRc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Clear" id="dyh-Jb-Ffj">
+                                        <connections>
+                                            <action selector="clear:" destination="btj-bT-jqi" id="Bak-et-Ad2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.10000000149011612" maxValue="1" id="6ol-DU-yyq">
+                                <rect key="frame" x="18" y="370" width="284" height="29"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <action selector="alphaChange:" destination="btj-bT-jqi" eventType="valueChanged" id="LQ2-eF-xAA"/>
+                                    <action selector="widthChange:" destination="btj-bT-jqi" eventType="valueChanged" id="id7-zP-oks"/>
+                                </connections>
+                            </slider>
+                            <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="1" maxValue="20" id="gez-oa-dpr">
+                                <rect key="frame" x="18" y="370" width="284" height="29"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <action selector="widthChange:" destination="btj-bT-jqi" eventType="valueChanged" id="XM5-ml-gji"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="&lt;GamePrompt Goes Here>" id="swz-dl-2bE">
+                        <barButtonItem key="leftBarButtonItem" title="Finish" id="OV9-FY-Jxh">
+                            <connections>
+                                <action selector="finishEditing:" destination="btj-bT-jqi" id="Emo-or-E5I"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
-                        <outlet property="Prompt" destination="CBK-Nz-h0w" id="14r-9H-vCp"/>
+                        <outlet property="alphaButton" destination="axw-qC-jUe" id="TRb-gs-Sk9"/>
+                        <outlet property="colorButton" destination="3Vy-lo-VQm" id="lQ3-uo-kCv"/>
+                        <outlet property="drawingView" destination="9NU-fD-Sqm" id="KJu-S7-uWH"/>
+                        <outlet property="lineAlphaSlider" destination="6ol-DU-yyq" id="dLl-R6-170"/>
+                        <outlet property="lineWidthSlider" destination="gez-oa-dpr" id="mlt-Pz-SLp"/>
+                        <outlet property="redoButton" destination="SbD-RQ-yN9" id="83f-D4-NYC"/>
+                        <outlet property="toolButton" destination="D8G-kL-VGb" id="48C-1T-ynV"/>
+                        <outlet property="undoButton" destination="W4d-pf-lHM" id="Qnf-7G-Qcc"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Syh-26-6Bm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653" y="-138"/>
+            <point key="canvasLocation" x="1548" y="-133"/>
         </scene>
         <!--Writing View Controller - Second-->
         <scene sceneID="13">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
                 <viewController title="Second" id="3" customClass="PDWritingViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17">
-                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Writing View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="22">
@@ -99,13 +165,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PFm-54-E3S">
                                 <rect key="frame" x="40" y="354" width="72" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="backButton:" destination="3" eventType="touchUpInside" id="WSi-Jq-G0C"/>
@@ -114,13 +175,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="byK-hP-SeL">
                                 <rect key="frame" x="207" y="354" width="75" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Submit">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="submitButton:" destination="3" eventType="touchUpInside" id="hEb-Io-POP"/>
@@ -143,26 +199,26 @@
                         <outlet property="imageDisplay" destination="sng-Ly-xtR" id="9vl-TU-psC"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="653" y="415"/>
+            <point key="canvasLocation" x="1179" y="415"/>
         </scene>
         <!--Page View Controller - History View-->
         <scene sceneID="goB-MX-Zql">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CoW-j8-aTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="9fm-Ob-09U" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="History View" id="ssT-2Z-Ng0"/>
                 </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CoW-j8-aTs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="653" y="976"/>
         </scene>
         <!--History View Controller-->
         <scene sceneID="cOH-wb-xVi">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5Vc-Ne-0cP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="uw1-EM-icQ" customClass="PDHistoryViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PZd-7D-j5r">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="PlayerName:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="c7r-cZ-TMy">
@@ -207,14 +263,62 @@
                         <outlet property="promptPlayerName" destination="c7r-cZ-TMy" id="6bl-0p-5ej"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Vc-Ne-0cP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="981" y="976"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Master Table View Controller - Root View Controller-->
+        <scene sceneID="cKh-vD-Nx8">
+            <objects>
+                <tableViewController id="G0f-Q1-F9u" customClass="PDMasterTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="G03-Hj-fKY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Ruj-v5-Spb">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ruj-v5-Spb" id="qh5-Hy-GLX">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="4" kind="push" id="dxe-u4-iXL"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="G0f-Q1-F9u" id="HRi-jY-j3t"/>
+                            <outlet property="delegate" destination="G0f-Q1-F9u" id="1WU-r5-g9m"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="rLy-pv-gwr"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8uU-NC-8pz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-245" y="465"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="c0M-0S-2ya">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="FtI-zr-NXF" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2ES-TP-SfT">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="G0f-Q1-F9u" kind="relationship" relationship="rootViewController" id="I9F-Xx-dYk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bCw-hk-YZS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-639" y="465"/>
+        </scene>
+        <!--Game Bar Controller-->
         <scene sceneID="15">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
-                <tabBarController id="4" sceneMemberID="viewController">
+                <tabBarController id="4" customClass="PDGameBarController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Kz5-la-fgW"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
@@ -222,50 +326,39 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
+                        <segue destination="t4L-zM-8O1" kind="relationship" relationship="viewControllers" id="26"/>
                         <segue destination="3" kind="relationship" relationship="viewControllers" id="27"/>
                         <segue destination="9fm-Ob-09U" kind="relationship" relationship="viewControllers" id="PuQ-sM-1aW"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="206" y="465"/>
+        </scene>
+        <!--Navigation Controller - DrawView-->
+        <scene sceneID="oLd-aG-bbr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="t4L-zM-8O1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="DrawView" image="first" id="7"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BnO-D1-c1N">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="3BA-ci-cZi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g6S-zr-qAQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="-133"/>
         </scene>
     </scenes>
     <resources>
         <image name="first" width="16" height="16"/>
         <image name="second" width="16" height="16"/>
     </resources>
-    <classes>
-        <class className="ACEDrawingView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ACEDrawingView.h"/>
-        </class>
-        <class className="PDDrawViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PDDrawViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="BackButton:"/>
-                <relationship kind="action" name="SubmitButton:"/>
-                <relationship kind="outlet" name="Prompt" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="PDHistoryViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PDHistoryViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="ImagePlayerName" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="image" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="prompt" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="promptPlayerName" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="PDWritingViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PDWritingViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="backButton:"/>
-                <relationship kind="action" name="promptBox:"/>
-                <relationship kind="action" name="submitButton:"/>
-                <relationship kind="outlet" name="imageDisplay" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

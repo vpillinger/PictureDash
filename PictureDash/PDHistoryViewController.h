@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PDGameViewController.h"
 
-@interface PDHistoryViewController : UIViewController
+@interface PDHistoryViewController : UIViewController <PDGameViewController>
 @property (weak, nonatomic) IBOutlet UILabel *promptPlayerName;
 @property (weak, nonatomic) IBOutlet UILabel *prompt;
 @property (weak, nonatomic) IBOutlet UILabel *ImagePlayerName;

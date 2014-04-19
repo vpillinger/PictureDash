@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4EFAA81901ACCA003D4B4C /* ACEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EFAA51901ACCA003D4B4C /* ACEViewController.m */; };
+		2C4EFAA91901ACCA003D4B4C /* ACEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4EFAA61901ACCA003D4B4C /* ACEViewController.xib */; };
+		2C4EFAF21901E2D4003D4B4C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4EFAF11901E2D4003D4B4C /* CoreData.framework */; };
+		2C4EFB3B1901F3CD003D4B4C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EFB391901F3CD003D4B4C /* Model.xcdatamodeld */; };
+		2C4EFB9719021962003D4B4C /* PDGameBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4EFB9619021962003D4B4C /* PDGameBarController.m */; };
+		2C5E1C341902EA0300A10CCC /* PDMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E1C331902EA0300A10CCC /* PDMasterTableViewController.m */; };
+		2C5E1C391902F09300A10CCC /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E1C381902F09300A10CCC /* Game.m */; };
+		2C5E1C3C1902F16800A10CCC /* GameRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5E1C3B1902F16800A10CCC /* GameRound.m */; };
+		2C68C7B31901991E00A37829 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C68C7B21901991E00A37829 /* Default-568h@2x.png */; };
 		8D2C3B9A18FF0D8E00302D55 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C3B9718FF0D8E00302D55 /* ACEDrawingTools.m */; };
 		8D2C3B9B18FF0D8E00302D55 /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C3B9918FF0D8E00302D55 /* ACEDrawingView.m */; };
 		8DD6BF0E18F2194300961E0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD6BF0D18F2194300961E0F /* UIKit.framework */; };
@@ -17,13 +26,12 @@
 		8DD6BF1E18F2194300961E0F /* PDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6BF1D18F2194300961E0F /* PDAppDelegate.m */; };
 		8DD6BF2118F2194300961E0F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF1F18F2194300961E0F /* MainStoryboard_iPhone.storyboard */; };
 		8DD6BF2418F2194300961E0F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2218F2194300961E0F /* MainStoryboard_iPad.storyboard */; };
-		8DD6BF2718F2194300961E0F /* PDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2618F2194300961E0F /* PDFirstViewController.m */; };
+		8DD6BF2718F2194300961E0F /* PDDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2618F2194300961E0F /* PDDrawViewController.m */; };
 		8DD6BF2918F2194300961E0F /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2818F2194300961E0F /* first.png */; };
 		8DD6BF2B18F2194300961E0F /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2A18F2194300961E0F /* first@2x.png */; };
 		8DD6BF2E18F2194300961E0F /* PDWritingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2D18F2194300961E0F /* PDWritingViewController.m */; };
 		8DD6BF3018F2194300961E0F /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF2F18F2194300961E0F /* second.png */; };
 		8DD6BF3218F2194300961E0F /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF3118F2194300961E0F /* second@2x.png */; };
-		8DD6BF3A18F2194300961E0F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD6BF3918F2194300961E0F /* SenTestingKit.framework */; };
 		8DD6BF3B18F2194300961E0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD6BF0D18F2194300961E0F /* UIKit.framework */; };
 		8DD6BF3C18F2194300961E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD6BF0F18F2194300961E0F /* Foundation.framework */; };
 		8DD6BF4418F2194400961E0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DD6BF4218F2194400961E0F /* InfoPlist.strings */; };
@@ -42,6 +50,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C4EFAA41901ACCA003D4B4C /* ACEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACEViewController.h; path = "../../../ACEDrawingView-master/ACEDrawingViewDemo/ACEViewController.h"; sourceTree = "<group>"; };
+		2C4EFAA51901ACCA003D4B4C /* ACEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACEViewController.m; path = "../../../ACEDrawingView-master/ACEDrawingViewDemo/ACEViewController.m"; sourceTree = "<group>"; };
+		2C4EFAA71901ACCA003D4B4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "../../../ACEDrawingView-master/ACEDrawingViewDemo/en.lproj/ACEViewController.xib"; sourceTree = "<group>"; };
+		2C4EFAF11901E2D4003D4B4C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2C4EFB3A1901F3CD003D4B4C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		2C4EFB9519021962003D4B4C /* PDGameBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDGameBarController.h; sourceTree = "<group>"; };
+		2C4EFB9619021962003D4B4C /* PDGameBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDGameBarController.m; sourceTree = "<group>"; };
+		2C4EFB98190222EB003D4B4C /* PDGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDGameViewController.h; sourceTree = "<group>"; };
+		2C5E1C321902EA0300A10CCC /* PDMasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDMasterTableViewController.h; sourceTree = "<group>"; };
+		2C5E1C331902EA0300A10CCC /* PDMasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDMasterTableViewController.m; sourceTree = "<group>"; };
+		2C5E1C371902F09300A10CCC /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		2C5E1C381902F09300A10CCC /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		2C5E1C3A1902F16800A10CCC /* GameRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRound.h; sourceTree = "<group>"; };
+		2C5E1C3B1902F16800A10CCC /* GameRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRound.m; sourceTree = "<group>"; };
+		2C68C7B21901991E00A37829 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8D2C3B9618FF0D8E00302D55 /* ACEDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingTools.h; sourceTree = "<group>"; };
 		8D2C3B9718FF0D8E00302D55 /* ACEDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingTools.m; sourceTree = "<group>"; };
 		8D2C3B9818FF0D8E00302D55 /* ACEDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingView.h; sourceTree = "<group>"; };
@@ -58,16 +81,15 @@
 		8DD6BF1D18F2194300961E0F /* PDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDAppDelegate.m; sourceTree = "<group>"; };
 		8DD6BF2018F2194300961E0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8DD6BF2318F2194300961E0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		8DD6BF2518F2194300961E0F /* PDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFirstViewController.h; sourceTree = "<group>"; };
-		8DD6BF2618F2194300961E0F /* PDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFirstViewController.m; sourceTree = "<group>"; };
+		8DD6BF2518F2194300961E0F /* PDDrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDDrawViewController.h; sourceTree = "<group>"; };
+		8DD6BF2618F2194300961E0F /* PDDrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDDrawViewController.m; sourceTree = "<group>"; };
 		8DD6BF2818F2194300961E0F /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		8DD6BF2A18F2194300961E0F /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		8DD6BF2C18F2194300961E0F /* PDWritingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDWritingViewController.h; sourceTree = "<group>"; };
 		8DD6BF2D18F2194300961E0F /* PDWritingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDWritingViewController.m; sourceTree = "<group>"; };
 		8DD6BF2F18F2194300961E0F /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		8DD6BF3118F2194300961E0F /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		8DD6BF3818F2194300961E0F /* PictureDashTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureDashTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DD6BF3918F2194300961E0F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8DD6BF3818F2194300961E0F /* PictureDashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureDashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD6BF4118F2194300961E0F /* PictureDashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PictureDashTests-Info.plist"; sourceTree = "<group>"; };
 		8DD6BF4318F2194400961E0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8DD6BF4518F2194400961E0F /* PictureDashTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureDashTests.h; sourceTree = "<group>"; };
@@ -81,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4EFAF21901E2D4003D4B4C /* CoreData.framework in Frameworks */,
 				8DD6BF0E18F2194300961E0F /* UIKit.framework in Frameworks */,
 				8DD6BF1018F2194300961E0F /* Foundation.framework in Frameworks */,
 				8DD6BF1218F2194300961E0F /* CoreGraphics.framework in Frameworks */,
@@ -91,7 +114,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD6BF3A18F2194300961E0F /* SenTestingKit.framework in Frameworks */,
 				8DD6BF3B18F2194300961E0F /* UIKit.framework in Frameworks */,
 				8DD6BF3C18F2194300961E0F /* Foundation.framework in Frameworks */,
 			);
@@ -100,9 +122,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C4EFAA31901AC9D003D4B4C /* AceDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				2C4EFAA41901ACCA003D4B4C /* ACEViewController.h */,
+				2C4EFAA51901ACCA003D4B4C /* ACEViewController.m */,
+				2C4EFAA61901ACCA003D4B4C /* ACEViewController.xib */,
+				8D2C3B9618FF0D8E00302D55 /* ACEDrawingTools.h */,
+				8D2C3B9718FF0D8E00302D55 /* ACEDrawingTools.m */,
+				8D2C3B9818FF0D8E00302D55 /* ACEDrawingView.h */,
+				8D2C3B9918FF0D8E00302D55 /* ACEDrawingView.m */,
+			);
+			name = AceDrawing;
+			sourceTree = "<group>";
+		};
+		2C5E1C351902EA1200A10CCC /* GameRoundViewers */ = {
+			isa = PBXGroup;
+			children = (
+				8DD6BF2518F2194300961E0F /* PDDrawViewController.h */,
+				2C4EFB98190222EB003D4B4C /* PDGameViewController.h */,
+				8DD6BF2618F2194300961E0F /* PDDrawViewController.m */,
+				8DD6BF2C18F2194300961E0F /* PDWritingViewController.h */,
+				8DD6BF2D18F2194300961E0F /* PDWritingViewController.m */,
+				8DD6BF5018F228C300961E0F /* PDHistoryViewController.h */,
+				8DD6BF5118F228C300961E0F /* PDHistoryViewController.m */,
+				2C4EFB9519021962003D4B4C /* PDGameBarController.h */,
+				2C4EFB9619021962003D4B4C /* PDGameBarController.m */,
+			);
+			name = GameRoundViewers;
+			sourceTree = "<group>";
+		};
+		2C5E1C361902EA7B00A10CCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C4EFB391901F3CD003D4B4C /* Model.xcdatamodeld */,
+				2C5E1C371902F09300A10CCC /* Game.h */,
+				2C5E1C381902F09300A10CCC /* Game.m */,
+				2C5E1C3A1902F16800A10CCC /* GameRound.h */,
+				2C5E1C3B1902F16800A10CCC /* GameRound.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		8DD6BEFE18F2194300961E0F = {
 			isa = PBXGroup;
 			children = (
+				2C68C7B21901991E00A37829 /* Default-568h@2x.png */,
 				8DD6BF1318F2194300961E0F /* PictureDash */,
 				8DD6BF3F18F2194300961E0F /* PictureDashTests */,
 				8DD6BF0C18F2194300961E0F /* Frameworks */,
@@ -114,7 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				8DD6BF0918F2194300961E0F /* PictureDash.app */,
-				8DD6BF3818F2194300961E0F /* PictureDashTests.octest */,
+				8DD6BF3818F2194300961E0F /* PictureDashTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,10 +187,10 @@
 		8DD6BF0C18F2194300961E0F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C4EFAF11901E2D4003D4B4C /* CoreData.framework */,
 				8DD6BF0D18F2194300961E0F /* UIKit.framework */,
 				8DD6BF0F18F2194300961E0F /* Foundation.framework */,
 				8DD6BF1118F2194300961E0F /* CoreGraphics.framework */,
-				8DD6BF3918F2194300961E0F /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,22 +198,17 @@
 		8DD6BF1318F2194300961E0F /* PictureDash */ = {
 			isa = PBXGroup;
 			children = (
-				8D2C3B9618FF0D8E00302D55 /* ACEDrawingTools.h */,
-				8D2C3B9718FF0D8E00302D55 /* ACEDrawingTools.m */,
-				8D2C3B9818FF0D8E00302D55 /* ACEDrawingView.h */,
-				8D2C3B9918FF0D8E00302D55 /* ACEDrawingView.m */,
-				8DD6BF5018F228C300961E0F /* PDHistoryViewController.h */,
-				8DD6BF5118F228C300961E0F /* PDHistoryViewController.m */,
+				2C5E1C321902EA0300A10CCC /* PDMasterTableViewController.h */,
+				2C5E1C331902EA0300A10CCC /* PDMasterTableViewController.m */,
+				2C4EFAA31901AC9D003D4B4C /* AceDrawing */,
+				2C5E1C351902EA1200A10CCC /* GameRoundViewers */,
+				2C5E1C361902EA7B00A10CCC /* Model */,
 				8DD6BF1C18F2194300961E0F /* PDAppDelegate.h */,
 				8DD6BF1D18F2194300961E0F /* PDAppDelegate.m */,
 				8DD6BF1F18F2194300961E0F /* MainStoryboard_iPhone.storyboard */,
 				8DD6BF2218F2194300961E0F /* MainStoryboard_iPad.storyboard */,
-				8DD6BF2518F2194300961E0F /* PDFirstViewController.h */,
-				8DD6BF2618F2194300961E0F /* PDFirstViewController.m */,
 				8DD6BF2818F2194300961E0F /* first.png */,
 				8DD6BF2A18F2194300961E0F /* first@2x.png */,
-				8DD6BF2C18F2194300961E0F /* PDWritingViewController.h */,
-				8DD6BF2D18F2194300961E0F /* PDWritingViewController.m */,
 				8DD6BF2F18F2194300961E0F /* second.png */,
 				8DD6BF3118F2194300961E0F /* second@2x.png */,
 				8DD6BF1418F2194300961E0F /* Supporting Files */,
@@ -222,8 +282,8 @@
 			);
 			name = PictureDashTests;
 			productName = PictureDashTests;
-			productReference = 8DD6BF3818F2194300961E0F /* PictureDashTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 8DD6BF3818F2194300961E0F /* PictureDashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -232,7 +292,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PD;
-				LastUpgradeCheck = 0440;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Vincent Pillinger";
 			};
 			buildConfigurationList = 8DD6BF0318F2194300961E0F /* Build configuration list for PBXProject "PictureDash" */;
@@ -263,6 +324,8 @@
 				8DD6BF2418F2194300961E0F /* MainStoryboard_iPad.storyboard in Resources */,
 				8DD6BF2918F2194300961E0F /* first.png in Resources */,
 				8DD6BF2B18F2194300961E0F /* first@2x.png in Resources */,
+				2C4EFAA91901ACCA003D4B4C /* ACEViewController.xib in Resources */,
+				2C68C7B31901991E00A37829 /* Default-568h@2x.png in Resources */,
 				8DD6BF3018F2194300961E0F /* second.png in Resources */,
 				8DD6BF3218F2194300961E0F /* second@2x.png in Resources */,
 			);
@@ -301,10 +364,16 @@
 			files = (
 				8DD6BF1A18F2194300961E0F /* main.m in Sources */,
 				8DD6BF1E18F2194300961E0F /* PDAppDelegate.m in Sources */,
-				8DD6BF2718F2194300961E0F /* PDFirstViewController.m in Sources */,
+				2C5E1C341902EA0300A10CCC /* PDMasterTableViewController.m in Sources */,
+				2C5E1C391902F09300A10CCC /* Game.m in Sources */,
+				2C4EFB9719021962003D4B4C /* PDGameBarController.m in Sources */,
+				8DD6BF2718F2194300961E0F /* PDDrawViewController.m in Sources */,
 				8DD6BF2E18F2194300961E0F /* PDWritingViewController.m in Sources */,
 				8DD6BF5218F228C300961E0F /* PDHistoryViewController.m in Sources */,
+				2C4EFB3B1901F3CD003D4B4C /* Model.xcdatamodeld in Sources */,
+				2C5E1C3C1902F16800A10CCC /* GameRound.m in Sources */,
 				8D2C3B9A18FF0D8E00302D55 /* ACEDrawingTools.m in Sources */,
+				2C4EFAA81901ACCA003D4B4C /* ACEViewController.m in Sources */,
 				8D2C3B9B18FF0D8E00302D55 /* ACEDrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +397,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2C4EFAA61901ACCA003D4B4C /* ACEViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C4EFAA71901ACCA003D4B4C /* en */,
+			);
+			name = ACEViewController.xib;
+			sourceTree = "<group>";
+		};
 		8DD6BF1618F2194300961E0F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,9 +444,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -382,10 +463,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -395,18 +480,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,13 +535,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PictureDash/PictureDash-Prefix.pch";
 				INFOPLIST_FILE = "PictureDashTests/PictureDashTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -460,13 +552,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PictureDash/PictureDash-Prefix.pch";
 				INFOPLIST_FILE = "PictureDashTests/PictureDashTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -501,6 +593,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C4EFB391901F3CD003D4B4C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C4EFB3A1901F3CD003D4B4C /* Model.xcdatamodel */,
+			);
+			currentVersion = 2C4EFB3A1901F3CD003D4B4C /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8DD6BF0018F2194300961E0F /* Project object */;
 }

@@ -278,8 +278,8 @@
     } else {
         imageScale = 1.0;
     }
-    UIImage *image = [UIImage imageWithData:imageData];
-    //UIImage *image = [UIImage imageWithData:imageData scale:imageScale];
+    //UIImage *image = [UIImage imageWithData:imageData];
+    UIImage *image = [UIImage imageWithData:imageData scale:imageScale];
     [self loadImage:image];
 }
 
